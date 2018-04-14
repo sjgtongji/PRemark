@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="black_text_h1">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_h1</item>
+    </style>
+    <style name="black_text_content">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+    </style>
+    <style name="black_text_s">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+    </style>
+    <style name="gray_text_content">
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+    </style>
+    <style name="gray_text_s">
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+    </style>
+    <style name="red_text_content">
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+    </style>
+    <style name="red_text_s">
+        <item name="android:textColor">@color/text_red</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+    </style>
+    <style name="blue_text_s">
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+    </style>
+    <style name="yellow_text_h1">
+        <item name="android:textColor">@color/text_yellow</item>
+        <item name="android:textSize">@dimen/text_size_h1</item>
+    </style>
+    <style name="yellow_btn">
+        <item name="android:textColor">@color/bg_white</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+        <item name="android:background">@drawable/bg_btn</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="white_btn">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_content</item>
+        <item name="android:background">@drawable/bg_btn_white</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="Theme.ActivityDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>
