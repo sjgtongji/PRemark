@@ -3,7 +3,7 @@
     android:id="@+id/activity_frame_title_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_white" >
+    android:background="@color/bg_navigate" >
 
     <Button
         android:id="@+id/activity_frame_title_btn_left"
@@ -37,8 +37,8 @@
             android:layout_centerVertical="true"
             android:gravity="center"
             android:text=""
-            android:textColor="@color/black"
-            android:textSize="@dimen/big_text_size" />
+            android:textColor="@color/white"
+            android:textSize="@dimen/medium_text_size" />
     </RelativeLayout>
 
     <Button

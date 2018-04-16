@@ -28,6 +28,12 @@ import java.util.*
  * Created by jigangsun on 2017/6/14.
  */
 abstract class BaseActivity : AppCompatActivity() {
+    val REMARK_NUM_KEY : String = "com.pl.sjg.premark.frame.remarkNum";
+    val REMARK_INDEX_KEY : String = "com.pl.sjg.premark.frame.remarkIndex";
+    val RETURN_CONTENT : String = "com.pl.sjg.premark.frame.returnContent";
+    val RETURN_CONTENT_INDEX : String = "com.pl.sjg.premark.frame.returnContent.index";
+    val SEND_CONTENT : String = "com.pl.sjg.premark.frame.sendContent";
+    val SEND_CONTENT_INDEX : String = "com.pl.sjg.premark.frame.sendContent.index";
     lateinit var navigationBar: NavigationBar;
     lateinit protected var bodyStub: ViewStub;
     lateinit var rootView: RelativeLayout;

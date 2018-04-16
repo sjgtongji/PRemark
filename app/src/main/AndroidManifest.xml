@@ -3,7 +3,7 @@
     package="com.pl.sjg.premark">
 
     <application
-        android:name="com.pl.sjg.premark.frame.BaseApplication"
+        android:name=".frame.BaseApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RemarkActivity" />
+        <activity android:name=".EditActivity"></activity>
     </application>
 
 </manifest>
